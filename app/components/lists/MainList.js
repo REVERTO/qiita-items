@@ -16,12 +16,12 @@ export const MainList = (props) => {
             style={{
               flexDirection: 'column',
               flex: 1,
-              height: 30,
             }}
             >
             <Text
               style={{
                 fontSize: 15,
+                fontWeight: 'bold',
                 alignSelf: 'flex-start',
               }}
             >
@@ -33,6 +33,7 @@ export const MainList = (props) => {
                 paddingTop: 4,
                 alignSelf: 'flex-start',
               }}
+              numberOfLines={2}
             >
               {item.body}
             </Text>
